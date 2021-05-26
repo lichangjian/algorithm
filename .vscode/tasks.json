@@ -9,10 +9,10 @@
             "command": "gcc",
             "args": [
                 "${file}",
-                "-std=c99",
-                "-o bin/a.exe",
+                "-o bin/a.out",
                 "-g"
-            ]
+            ],
+            "problemMatcher": []
         },
         {
             "label": "ass",
